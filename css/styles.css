@@ -4370,7 +4370,7 @@ input[type=button].btn-block {
   color: #fff;
 }
 
-.fa-ul-a>li{
+.fa-ul-s>li{
   font-size: 20px;
   color: #000;
   font-weight: bold;
@@ -4415,6 +4415,7 @@ input[type=button].btn-block {
 
 .card-title {
   margin-bottom: 0.75rem;
+  text-align: center;
 }
 
 .card-subtitle {
@@ -10204,6 +10205,13 @@ section.resume-section {
 section.resume-section .resume-section-content {
   width: 100%;
 }
+
+.fa-trophy.text-warning{
+  margin-right: -95px;
+  font-size: 25px;
+  margin-top: 9px;
+}
+
 
 .footer-bottom{
   text-align: center;
