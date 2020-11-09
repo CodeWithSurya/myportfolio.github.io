@@ -10221,6 +10221,20 @@ section.resume-section .resume-section-content {
   section.resume-section {
     min-height: 100vh;
   }
+  .resume-section .resume-section-content .btn.btn-primary{
+    position: static;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+@media (max-width: 768px) {
+   .btn.btn-primary{
+    position: static;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  
 }
 @media (min-width: 992px) {
   section.resume-section {
@@ -10230,3 +10244,4 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
